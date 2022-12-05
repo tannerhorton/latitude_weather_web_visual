@@ -58,14 +58,83 @@
 
     <!-- Start of container -->
     <div class="container px-4 py-5">
+      
       <h2 class="pb-2 border-bottom">Summary: Latitude vs. X</h2>
   
       <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
         <div class="d-flex flex-column align-items-start gap-2">
-          <p class="text-muted">The purpose of this project was tot analyze how weather changes /n
-             as you get closer to the equator.</p>
+          <p class="text-muted">The purpose of this project was tot analyze how weather changes as you get closer to the equator.
+            To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
+             After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude.
+            Factors we looked at included: temperature, cloudiness, wind speed, and humidity. 
+            This site provides the source data and visualizations created as part of the analysis. 
+            Explanations and descriptions of any trends and correlations witnessed are also included.</p>
         </div>
-        <div class="row row-cols-1 row-cols-sm-4 g-4">
+        <div class="container px-9 py-7">
+          <h2 class="pb-2 border-bottom">Visualizations</h2>
+        <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+          <div class="d-flex flex-column align-items-start gap-3">
+            <div class="album py-5 bg-light">
+              <div class="container">
+          
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                  <div class="col">
+                    <div class="card shadow-sm">
+                      <img src="assets/images/lat_v_temp.png"/>
+                      <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                          </div>
+                          <small class="text-muted">9 mins</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card shadow-sm">
+                      <img src="assets/images/lat_v_cloud.png"/>
+                      <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                          </div>
+                          <small class="text-muted">9 mins</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card shadow-sm">
+                      <img src="assets/images/lat_v_hum.png"/>        
+                      <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                          </div>
+                          <small class="text-muted">9 mins</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img src="assets/images/lat_v_wind.png"/>
+                        <div class="card-body">
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                            </div>
+                            <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- <div class="row row-cols-1 row-cols-sm-4 g-4">
           <div class="d-flex flex-column gap-4">
             <div class="d-flex flex-column gap-4">
               <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-3 rounded-4">
@@ -74,7 +143,7 @@
                 </svg>
               </div>
               <h4 class="fw-semibold mb-0">Visualizations</h4>
-              <p class="text-muted">I will replace this text with images.</p>
+              <p class="text-muted">I will replace this text with images.</p> -->
             </div>
               </svg>
             </div>
