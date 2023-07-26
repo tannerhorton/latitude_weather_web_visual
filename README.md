@@ -1,4 +1,4 @@
-# Plotting Relationship Between Latitude and Climate Using Webpages
+# Plotting Latitude & Climate Relationship Using Webpages
 Using HTML and CSS to create a dashboard featuring the Latitude vs. X analysis of weather.
 
 ## Overview
