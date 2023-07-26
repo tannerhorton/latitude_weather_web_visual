@@ -70,8 +70,7 @@ The visualization for the selected comparison (latitude vs. max temperature, lat
 
 A paragraph describing the visualization and its significance.
 
-A comparisons page that does the following:
-
+## Webpage(s)
 Contains all the visualizations on the same page so that people can easily compare them.
 
 Uses a Bootstrap grid for the visualizations. This grid must contain two visualizations across a medium or large screen and one visualization across an extra-small or small screen.
@@ -80,7 +79,9 @@ A data page that displays a responsive table containing the data that the visual
 
 The table must be a Bootstrap table component.
 
-The data must come from either exporting or converting the CSV file to HTML. To do so, try using a tool that you already know: Pandas. Pandas has a to_html method that generates an HTML table from a Pandas DataFrame. To learn more, see pandas.DataFrame.to_htmlLinks to an external site. in the official Pandas documentation.
+The data must come from either exporting or converting the CSV file to HTML. To do so, try using a tool that you already know: Pandas. Pandas has a to_html method that generates an HTML table from a Pandas DataFrame.
+
+To learn more, see pandas.DataFrame.to_htmlLinks to an external site. in the official Pandas documentation.
 
 Whether you use your own CSV file or the one provided, you should also upload the CSV file you used with your submission. This way your data page can be compared with the CSV file by your grader.
 
@@ -97,8 +98,6 @@ Is responsive (via media queries). Note that the navigation bar must resemble th
 Your website must be deployed to GitHub Pages:
 
 As a result, the website must work at a live, publicly accessible URL. Save this URL for your later submission.
-Bonus
-For extra challenges (but no additional points), you may wish to try any or all of the following:
 
 Use the same requirements but a different dataset to make it your own.
 
