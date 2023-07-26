@@ -1,12 +1,10 @@
-# web-design-challenge
+# Plotting Relationship Between Latitude and Climate on Publicly Available Webpages
 Using HTML and CSS to create a dashboard featuring the Latitude vs. X analysis of weather.
 
-Background
+## Overview
 Data becomes more powerful when you share it with others! That’s because people can use your data only if they can access it. So, you’ll use HTML and CSS to create a dashboard featuring the Latitude vs. X analysis of weather.
 
-“”
-
-Before You Begin
+## Methodology
 Create a new repository for this project called Web-Design-Challenge. Do not add this assignment to an existing repository.
 
 Clone the new repository to your computer.
@@ -15,38 +13,28 @@ Inside your local Git repository, add the following:
 
 Three folders named assets, Resources and visualizations.
 
-NOTE
 You’ll later add your CSS and image files to the assets folder. You’ll add the CSV file containing the data for your website to the Resourcesfolder. You’ll add the HTML pages that display your visualizations to the visualizations folder.
 
 An index.html file in the main folder.
 
-NOTE
 You’ll later edit this file to be the landing page that a user first encounters when reviewing your submission.
 
 Inside the assets folder, two more folders named css and images.
 
-NOTE
 You’ll use these folders to store your CSS assets and image assets, respectively.*
 
 Push the changes from Steps 1–3 to GitHub.
 
 Deploy your index.html file to GitHub Pages.
 
-NOTE
 By deploying this empty HTML file to GitHub Pages now, you’ll find that it automatically refreshes as you build your pages. You can then review the updates with each push that you make to GitHub.
 
-Files
-Download the following files to help you get started:
-
-Module 11 Challenge filesLinks to an external site.
-
-Instructions
 Create a website by using either the visualizations that you created for your Python-APIs Challenge or the weather data and images that are provided for this Challenge. To do so, use the considerations and website requirements that the following subsections describe. Also, ensure that your repository has regular commits and a descriptive README.md file.
 
 NOTE
 As you build this dashboard, you'll create a page for each plot and a way to navigate among these pages. These pages should contain the visualizations and the descriptions. You’ll also create two more pages. One will be a landing page that provides a comparison of all the plots. The other will be a page that presents the data used to build the plots.
 
-Considerations
+## Considerations
 Be aware that you must use Bootstrap. This includes using the Bootstrap navbar component for the header on every page, the Bootstrap grid for responsiveness on the comparison page, and the Bootstrap table component for the data page.
 
 Be aware that you must deploy your website to GitHub Pages, and that as a result, the website must work at a live, publicly accessible URL.
@@ -57,12 +45,7 @@ Make sure that your website works at all window widths.
 
 Feel free to take some liberties with the visual aspects, but keep the core functionality the same as the instructions describe. (For example, keep the comparison visualizations on the comparison page.)
 
-Website Requirements
-The overall requirements for your website are as follows:
-
-NOTE
-For reference, review the following Screenshots section.
-
+## Visualizations
 Your website must consist of seven pages.
 
 At the top of every page, your website must have a navigation bar.
@@ -97,10 +80,9 @@ A data page that displays a responsive table containing the data that the visual
 
 The table must be a Bootstrap table component.
 
-HINT
 The data must come from either exporting or converting the CSV file to HTML. To do so, try using a tool that you already know: Pandas. Pandas has a to_html method that generates an HTML table from a Pandas DataFrame. To learn more, see pandas.DataFrame.to_htmlLinks to an external site. in the official Pandas documentation.
 
-Note: Whether you use your own CSV file or the one provided, you should also upload the CSV file you used with your submission. This way your data page can be compared with the CSV file by your grader.
+Whether you use your own CSV file or the one provided, you should also upload the CSV file you used with your submission. This way your data page can be compared with the CSV file by your grader.
 
 At the top of every page, your website must have a navigation bar that does the following:
 
@@ -122,13 +104,11 @@ Use the same requirements but a different dataset to make it your own.
 
 Use the same requirements, but add a Bootstrap theme to customize your website. To do so, you can use a tool like BootswatchLinks to an external site..
 
-Add extra visualizations.
-
+## Screenshots
 Use meaningful glyphicons next to the links in the navigation bar.
 
 On every visualization page that has an active state, add visualization navigation, as shown in the following images in the Screenshots section.
 
-Screenshots
 This section contains screenshots of each page, at various screen widths, that you must create. Keep in mind that these screenshots are intended as a guide. You can meet the requirements without exactly matching your pages to the screenshots.
 
 Landing Page
@@ -156,7 +136,7 @@ Large screen navigation bar
 
 Small screen navigation bar
 
-Requirements
+## Requirements
 Landing Page (10 points)
 To receive all points, your landing page must have all of the following
 A sidebar section with images of each plot that all load (2 points)
@@ -180,7 +160,7 @@ All sidebar visualization images link to their respective pages (1 point per pag
 Includes a paragraph of text describing the plot (1 point per page)
 Uses Bootstrap grid to separate sections (2 points per page)
 Page is responsive when the window is reduced in size (2 points per page)
-Comparison Page (6 points)
+
 To receive all points, your comparison page must have all of the following
 All Images load (1 point)
 All labels are correct (1 point)
@@ -191,7 +171,7 @@ To receive all points, your data page must have all of the following
 No rows missing from the CSV data file (2 points)
 The table uses Bootstrap table class(es) (1 point)
 The table is responsive and stays inside a container when the page is reduced in size (2 points)
-The table has all 10 columns (The following columns must be included but may be in a different order or named differently: City_ID, City, Country, Date, Latitude, Longitude, Cloudiness, Humidity, Max Temperature, Wind Speed) (2 points)
+The table has all 10 columns (The following columns must be included but may be in a different order or named differently: City_ID, City, Country, Date, Latitude, Longitude, Cloudiness, Humidity, Max Temperature, Wind Speed) 
 The CSV data file used to produce the data page is included in the submission on GitHub in a Resourcesfolder (1 point)
 Navbar (16 points)
 To receive all points, your navbar must have all of the following
@@ -205,6 +185,7 @@ File Organization and Structure (10 points)
 To receive all points, your files must include the following structure
 Visualization pages (cloudiness.html, humidity.html, temp.html, and wind.html) are stored within a visualizations folder (2 points)
 
+## Results and Conclusion 
 An assets folder contains the css and images folders (2 points)
 
 CSS file(s) are stored within the css folder (2 point)
@@ -213,8 +194,6 @@ Images are stored within the images folder (2 points)
 
 index.html, comparison.html, and data.html are stored in the parent directory (2 points)
 
-Deployment and Submission (10 points)
-To receive all points, you must
 Submit a link to a GitHub repository that’s cloned to your local machine and contains your files (2 points)
 
 Use the command line to add your files to the repository (2 points)
@@ -222,4 +201,3 @@ Use the command line to add your files to the repository (2 points)
 Include appropriate commit messages in your files (2 points)
 
 Deploy the website to GitHub Pages (4 points)
-
